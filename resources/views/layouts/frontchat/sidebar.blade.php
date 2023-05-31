@@ -99,7 +99,7 @@
                                 <li class="tyn-aside-item js-toggle-main active">
                                     <div class="tyn-media-group">
                                         <div class="tyn-media tyn-size-lg">
-                                            <img src="images/avatar/1.jpg" alt="">
+                                            <img src="{{ asset('/frontasset/images/avatar/1.jpg') }}" alt="">
                                         </div>
                                         <div class="tyn-media-col">
                                             <div class="tyn-media-row">
@@ -193,7 +193,7 @@
                                 <li class="tyn-aside-item js-toggle-main">
                                     <div class="tyn-media-group">
                                         <div class="tyn-media tyn-size-lg">
-                                            <img src="images/avatar/2.jpg" alt="">
+                                            <img src="{{ asset('/frontasset/images/avatar/2.jpg') }}" alt="">
                                         </div>
                                         <div class="tyn-media-col">
                                             <div class="tyn-media-row">
@@ -292,7 +292,7 @@
                                 <li class="tyn-aside-item js-toggle-main">
                                     <div class="tyn-media-group">
                                         <div class="tyn-media tyn-size-lg">
-                                            <img src="images/avatar/3.jpg" alt="">
+                                            <img src="{{ asset('/frontasset/images/avatar/3.jpg') }}" alt="">
                                         </div>
                                         <div class="tyn-media-col">
                                             <div class="tyn-media-row">
@@ -385,7 +385,7 @@
                                 <li class="tyn-aside-item js-toggle-main">
                                     <div class="tyn-media-group">
                                         <div class="tyn-media tyn-size-lg">
-                                            <img src="images/avatar/4.jpg" alt="">
+                                            <img src="{{ asset('/frontasset/images/avatar/4.jpg') }}" alt="">
                                         </div>
                                         <div class="tyn-media-col">
                                             <div class="tyn-media-row">
@@ -478,7 +478,7 @@
                                 <li class="tyn-aside-item js-toggle-main">
                                     <div class="tyn-media-group">
                                         <div class="tyn-media tyn-size-lg">
-                                            <img src="images/avatar/5.jpg" alt="">
+                                            <img src="{{ asset('/frontasset/images/avatar/5.jpg') }}" alt="">
                                         </div>
                                         <div class="tyn-media-col">
                                             <div class="tyn-media-row">
@@ -571,7 +571,7 @@
                                 <li class="tyn-aside-item js-toggle-main">
                                     <div class="tyn-media-group">
                                         <div class="tyn-media tyn-size-lg">
-                                            <img src="images/avatar/6.jpg" alt="">
+                                            <img src="{{ asset('/frontasset/images/avatar/6.jpg') }}" alt="">
                                         </div>
                                         <div class="tyn-media-col">
                                             <div class="tyn-media-row">
@@ -664,7 +664,7 @@
                                 <li class="tyn-aside-item js-toggle-main">
                                     <div class="tyn-media-group">
                                         <div class="tyn-media tyn-size-lg">
-                                            <img src="images/avatar/7.jpg" alt="">
+                                            <img src="{{ asset('/frontasset/images/avatar/7.jpg') }}" alt="">
                                         </div>
                                         <div class="tyn-media-col">
                                             <div class="tyn-media-row">
@@ -757,7 +757,7 @@
                                 <li class="tyn-aside-item js-toggle-main">
                                     <div class="tyn-media-group">
                                         <div class="tyn-media tyn-size-lg">
-                                            <img src="images/avatar/8.jpg" alt="">
+                                            <img src="{{ asset('/frontasset/images/avatar/8.jpg') }}" alt="">
                                         </div>
                                         <div class="tyn-media-col">
                                             <div class="tyn-media-row">
@@ -850,7 +850,7 @@
                                 <li class="tyn-aside-item js-toggle-main">
                                     <div class="tyn-media-group">
                                         <div class="tyn-media tyn-size-lg">
-                                            <img src="images/avatar/9.jpg" alt="">
+                                            <img src="{{ asset('/frontasset/images/avatar/9.jpg') }}" alt="">
                                         </div>
                                         <div class="tyn-media-col">
                                             <div class="tyn-media-row">
@@ -943,7 +943,7 @@
                                 <li class="tyn-aside-item js-toggle-main">
                                     <div class="tyn-media-group">
                                         <div class="tyn-media tyn-size-lg">
-                                            <img src="images/avatar/10.jpg" alt="">
+                                            <img src="{{ asset('/frontasset/images/avatar/10.jpg') }}" alt="">
                                         </div>
                                         <div class="tyn-media-col">
                                             <div class="tyn-media-row">
@@ -1036,7 +1036,7 @@
                                 <li class="tyn-aside-item js-toggle-main">
                                     <div class="tyn-media-group">
                                         <div class="tyn-media tyn-size-lg">
-                                            <img src="images/avatar/11.jpg" alt="">
+                                            <img src="{{ asset('/frontasset/images/avatar/11.jpg') }}" alt="">
                                         </div>
                                         <div class="tyn-media-col">
                                             <div class="tyn-media-row">
@@ -1133,7 +1133,7 @@
                                 <li class="tyn-aside-item js-toggle-main active">
                                     <div class="tyn-media-group">
                                         <div class="tyn-media tyn-size-lg">
-                                            <img src="images/avatar/1.jpg" alt="">
+                                            <img src="{{ asset('/frontasset/images/avatar/1.jpg') }}" alt="">
                                         </div>
                                         <div class="tyn-media-col">
                                             <div class="tyn-media-row">
@@ -1227,7 +1227,7 @@
                                 <li class="tyn-aside-item js-toggle-main">
                                     <div class="tyn-media-group">
                                         <div class="tyn-media tyn-size-lg">
-                                            <img src="images/avatar/3.jpg" alt="">
+                                            <img src="{{ asset('/frontasset/images/avatar/3.jpg') }}" alt="">
                                         </div>
                                         <div class="tyn-media-col">
                                             <div class="tyn-media-row">
@@ -1320,7 +1320,7 @@
                                 <li class="tyn-aside-item js-toggle-main">
                                     <div class="tyn-media-group">
                                         <div class="tyn-media tyn-size-lg">
-                                            <img src="images/avatar/4.jpg" alt="">
+                                            <img src="{{ asset('/frontasset/images/avatar/4.jpg') }}" alt="">
                                         </div>
                                         <div class="tyn-media-col">
                                             <div class="tyn-media-row">
@@ -1413,7 +1413,7 @@
                                 <li class="tyn-aside-item js-toggle-main">
                                     <div class="tyn-media-group">
                                         <div class="tyn-media tyn-size-lg">
-                                            <img src="images/avatar/5.jpg" alt="">
+                                            <img src="{{ asset('/frontasset/images/avatar/5.jpg') }}" alt="">
                                         </div>
                                         <div class="tyn-media-col">
                                             <div class="tyn-media-row">
@@ -1506,7 +1506,7 @@
                                 <li class="tyn-aside-item js-toggle-main">
                                     <div class="tyn-media-group">
                                         <div class="tyn-media tyn-size-lg">
-                                            <img src="images/avatar/6.jpg" alt="">
+                                            <img src="{{ asset('/frontasset/images/avatar/6.jpg') }}" alt="">
                                         </div>
                                         <div class="tyn-media-col">
                                             <div class="tyn-media-row">
@@ -1599,7 +1599,7 @@
                                 <li class="tyn-aside-item js-toggle-main">
                                     <div class="tyn-media-group">
                                         <div class="tyn-media tyn-size-lg">
-                                            <img src="images/avatar/10.jpg" alt="">
+                                            <img src="{{ asset('/frontasset/images/avatar/10.jpg') }}" alt="">
                                         </div>
                                         <div class="tyn-media-col">
                                             <div class="tyn-media-row">
@@ -1696,7 +1696,7 @@
                                 <li class="tyn-aside-item js-toggle-main">
                                     <div class="tyn-media-group">
                                         <div class="tyn-media tyn-size-lg">
-                                            <img src="images/avatar/2.jpg" alt="">
+                                            <img src="{{ asset('/frontasset/images/avatar/2.jpg') }}" alt="">
                                         </div>
                                         <div class="tyn-media-col">
                                             <div class="tyn-media-row">
@@ -1795,7 +1795,7 @@
                                 <li class="tyn-aside-item js-toggle-main">
                                     <div class="tyn-media-group">
                                         <div class="tyn-media tyn-size-lg">
-                                            <img src="images/avatar/4.jpg" alt="">
+                                            <img src="{{ asset('/frontasset/images/avatar/4.jpg') }}" alt="">
                                         </div>
                                         <div class="tyn-media-col">
                                             <div class="tyn-media-row">
@@ -1888,7 +1888,7 @@
                                 <li class="tyn-aside-item js-toggle-main">
                                     <div class="tyn-media-group">
                                         <div class="tyn-media tyn-size-lg">
-                                            <img src="images/avatar/5.jpg" alt="">
+                                            <img src="{{ asset('/frontasset/images/avatar/5.jpg') }}" alt="">
                                         </div>
                                         <div class="tyn-media-col">
                                             <div class="tyn-media-row">
@@ -1981,7 +1981,7 @@
                                 <li class="tyn-aside-item js-toggle-main">
                                     <div class="tyn-media-group">
                                         <div class="tyn-media tyn-size-lg">
-                                            <img src="images/avatar/9.jpg" alt="">
+                                            <img src="{{ asset('/frontasset/images/avatar/9.jpg') }}" alt="">
                                         </div>
                                         <div class="tyn-media-col">
                                             <div class="tyn-media-row">
@@ -2074,7 +2074,7 @@
                                 <li class="tyn-aside-item js-toggle-main">
                                     <div class="tyn-media-group">
                                         <div class="tyn-media tyn-size-lg">
-                                            <img src="images/avatar/10.jpg" alt="">
+                                            <img src="{{ asset('/frontasset/images/avatar/10.jpg') }}" alt="">
                                         </div>
                                         <div class="tyn-media-col">
                                             <div class="tyn-media-row">
@@ -2171,7 +2171,7 @@
                                 <li class="tyn-aside-item js-toggle-main">
                                     <div class="tyn-media-group">
                                         <div class="tyn-media tyn-size-lg">
-                                            <img src="images/avatar/9.jpg" alt="">
+                                            <img src="{{ asset('/frontasset/images/avatar/9.jpg') }}" alt="">
                                         </div>
                                         <div class="tyn-media-col">
                                             <div class="tyn-media-row">
@@ -2264,7 +2264,7 @@
                                 <li class="tyn-aside-item js-toggle-main">
                                     <div class="tyn-media-group">
                                         <div class="tyn-media tyn-size-lg">
-                                            <img src="images/avatar/10.jpg" alt="">
+                                            <img src="{{ asset('/frontasset/images/avatar/10.jpg') }}" alt="">
                                         </div>
                                         <div class="tyn-media-col">
                                             <div class="tyn-media-row">

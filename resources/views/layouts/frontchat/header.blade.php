@@ -211,7 +211,7 @@
                                 <li>
                                     <div class="tyn-media-group">
                                         <div class="tyn-media tyn-circle">
-                                            <img src="images/avatar/1.jpg" alt="">
+                                            <img src="{{ asset('/frontasset/images/avatar/1.jpg') }}" alt="">
                                         </div>
                                         <div class="tyn-media-col">
                                             <div class="tyn-media-row">
@@ -226,7 +226,7 @@
                                 <li>
                                     <div class="tyn-media-group align-items-start">
                                         <div class="tyn-media tyn-circle">
-                                            <img src="images/avatar/2.jpg" alt="">
+                                            <img src="{{ asset('/frontasset/images/avatar/2.jpg') }}" alt="">
                                         </div>
                                         <div class="tyn-media-col">
                                             <div class="tyn-media-row">
@@ -254,7 +254,7 @@
                                 <li>
                                     <div class="tyn-media-group align-items-start">
                                         <div class="tyn-media tyn-circle">
-                                            <img src="images/avatar/3.jpg" alt="">
+                                            <img src="{{ asset('/frontasset/images/avatar/3.jpg') }}" alt="">
                                         </div>
                                         <div class="tyn-media-col">
                                             <div class="tyn-media-row">
@@ -293,7 +293,7 @@
                                 <li>
                                     <div class="tyn-media-group">
                                         <div class="tyn-media tyn-circle">
-                                            <img src="images/avatar/4.jpg" alt="">
+                                            <img src="{{ asset('/frontasset/images/avatar/4.jpg') }}" alt="">
                                         </div>
                                         <div class="tyn-media-col">
                                             <div class="tyn-media-row">
@@ -312,14 +312,14 @@
                 <li class="tyn-appbar-item">
                     <a class="d-inline-flex dropdown-toggle" data-bs-auto-close="outside" data-bs-toggle="dropdown" href="#" data-bs-offset="0,10">
                         <div class="tyn-media tyn-size-lg tyn-circle">
-                            <img src="images/avatar/3.jpg" alt="">
+                            <img src="{{ asset('/frontasset/images/avatar/3.jpg') }}" alt="">
                         </div>
                     </a>
                     <div class="dropdown-menu dropdown-menu-end">
                         <div class="dropdown-gap">
                             <div class="tyn-media-group">
                                 <div class="tyn-media tyn-size-lg">
-                                    <img src="images/avatar/3.jpg" alt="">
+                                    <img src="{{ asset('/frontasset/images/avatar/3.jpg') }}" alt="">
                                 </div>
                                 <div class="tyn-media-col">
                                     <div class="tyn-media-row">
