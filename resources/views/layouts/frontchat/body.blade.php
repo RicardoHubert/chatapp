@@ -501,26 +501,26 @@
                         <div class="tyn-reply-item incoming">
                             <div class="tyn-reply-avatar">
                                 <div class="tyn-media tyn-size-md tyn-circle">
-                                    <img src="images/avatar/2.jpg" alt="">
+                                <img src="{{asset ('frontasset/images/avatar/2.jpg')}}" alt="">
                                 </div>
                             </div>
                             <div class="tyn-reply-group">
                                 <div class="tyn-reply-bubble">
                                     <div class="tyn-reply-media">
-                                        <a href="images/gallery/chat/1.jpg" class="glightbox tyn-thumb" data-gallery="media-photo">
-                                            <img src="images/gallery/chat/thumb-1.jpg" class="tyn-image" alt="">
+                                        <a href="{{ asset('frontasset/images/gallery/chat/1.jpg')}}" class="glightbox tyn-thumb" data-gallery="media-photo">
+                                            <img src="{{ asset('frontasset/images/gallery/chat/thumb-1.jpg')}}" class="tyn-image" alt="">
                                         </a>
-                                        <a href="images/gallery/chat/2.jpg" class="glightbox tyn-thumb" data-gallery="media-photo">
-                                            <img src="images/gallery/chat/thumb-2.jpg" class="tyn-image" alt="">
+                                        <a href="{{ asset('frontasset/images/gallery/chat/2.jpg')}}" class="glightbox tyn-thumb" data-gallery="media-photo">
+                                            <img src="{{ asset('frontasset/images/gallery/chat/thumb-2.jpg')}}" class="tyn-image" alt="">
                                         </a>
-                                        <a href="images/gallery/chat/3.jpg" class="glightbox tyn-thumb" data-gallery="media-photo">
-                                            <img src="images/gallery/chat/thumb-3.jpg" class="tyn-image" alt="">
+                                        <a href="{{ asset('frontasseet/images/gallery/chat/3.jpg')}}" class="glightbox tyn-thumb" data-gallery="media-photo">
+                                            <img src="{{ asset('frontasset/images/gallery/chat/thumb-3.jpg')}}" class="tyn-image" alt="">
                                         </a>
-                                        <a href="images/gallery/chat/4.jpg" class="glightbox tyn-thumb" data-gallery="media-photo">
+                                        <a href="{{ asset('frontasset/images/gallery/chat/4.jpg')}}" class="glightbox tyn-thumb" data-gallery="media-photo">
                                             <img src="images/gallery/chat/thumb-4.jpg" class="tyn-image" alt="">
                                         </a>
-                                        <a href="images/gallery/chat/5.jpg" class="glightbox tyn-thumb" data-gallery="media-photo">
-                                            <img src="images/gallery/chat/thumb-5.jpg" class="tyn-image" alt="">
+                                        <a href="{{ asset('images/gallery/chat/5.jpg')}}" class="glightbox tyn-thumb" data-gallery="media-photo">
+                                            <img src="{{ asset('images/gallery/chat/thumb-5.jpg')}}" class="tyn-image" alt="">
                                         </a>
                                     </div>
                                     <ul class="tyn-reply-tools">
@@ -620,7 +620,7 @@
                                         <div class="tyn-reply-link-thumb">
                                             <a href="#">
                                                 <h6 class="tyn-reply-link-title">Digital Marketing Guide line for dummies</h6>
-                                                <img src="images/avatar/4.jpg" alt="">
+                                                <img src="{{ asset('frontasset/images/avatar/4.jpg')}}" alt="">
                                             </a>
                                         </div>
                                         <a class="tyn-reply-anchor" href="https://www.envato.com/atomic-power-plant-engine/">https://www.envato.com/atomic-power-plant-engine/</a>
@@ -923,33 +923,33 @@
                                     <div class="tab-pane show active" id="chat-media-images" tabindex="0">
                                         <div class="row g-3">
                                             <div class="col-4">
-                                                <a href="images/gallery/chat/1.jpg" class="glightbox tyn-thumb" data-gallery="media-photo">
-                                                    <img src="images/gallery/chat/thumb-1.jpg" class="tyn-image" alt="">
+                                                <a href="{{ asset('frontasset/images/gallery/chat/1.jpg')}}" class="glightbox tyn-thumb" data-gallery="media-photo">
+                                                    <img src="{{ asset('frontasset/images/gallery/chat/thumb-1.jpg')}}" class="tyn-image" alt="">
                                                 </a>
                                             </div>
                                             <div class="col-4">
-                                                <a href="images/gallery/chat/2.jpg" class="glightbox tyn-thumb" data-gallery="media-photo">
-                                                    <img src="images/gallery/chat/thumb-2.jpg" class="tyn-image" alt="">
+                                                <a href="{{ asset('frontasset/images/gallery/chat/2.jpg')}}" class="glightbox tyn-thumb" data-gallery="media-photo">
+                                                    <img src="{{ asset('frontasset/images/gallery/chat/thumb-2.jpg')}}" class="tyn-image" alt="">
                                                 </a>
                                             </div>
                                             <div class="col-4">
-                                                <a href="images/gallery/chat/3.jpg" class="glightbox tyn-thumb" data-gallery="media-photo">
+                                                <a href="{{ asset('frontasset/images/gallery/chat/3.jpg')}}" class="glightbox tyn-thumb" data-gallery="media-photo">
                                                     <img src="images/gallery/chat/thumb-3.jpg" class="tyn-image" alt="">
                                                 </a>
                                             </div>
                                             <div class="col-4">
-                                                <a href="images/gallery/chat/4.jpg" class="glightbox tyn-thumb" data-gallery="media-photo">
-                                                    <img src="images/gallery/chat/thumb-4.jpg" class="tyn-image" alt="">
+                                                <a href="{{ asset('frontasset/images/gallery/chat/4.jpg')}}" class="glightbox tyn-thumb" data-gallery="media-photo">
+                                                    <img src="{{('frontasset/images/gallery/chat/thumb-4.jpg')}}" class="tyn-image" alt="">
                                                 </a>
                                             </div>
                                             <div class="col-4">
-                                                <a href="images/gallery/chat/5.jpg" class="glightbox tyn-thumb" data-gallery="media-photo">
-                                                    <img src="images/gallery/chat/thumb-5.jpg" class="tyn-image" alt="">
+                                                <a href="{{ asset('frontasset/images/gallery/chat/5.jpg')}}" class="glightbox tyn-thumb" data-gallery="media-photo">
+                                                    <img src="{{ asset('frontasset/images/gallery/chat/thumb-5.jpg')}}" class="tyn-image" alt="">
                                                 </a>
                                             </div>
                                             <div class="col-4">
-                                                <a href="images/gallery/chat/6.jpg" class="glightbox tyn-thumb" data-gallery="media-photo">
-                                                    <img src="images/gallery/chat/thumb-6.jpg" class="tyn-image" alt="">
+                                                <a href="{{asset('frontassset/images/gallery/chat/6.jpg')}}" class="glightbox tyn-thumb" data-gallery="media-photo">
+                                                    <img src="{{asset('frontasset/images/gallery/chat/thumb-6.jpg')}}" class="tyn-image" alt="">
                                                 </a>
                                             </div>
                                         </div>
@@ -958,7 +958,7 @@
                                         <div class="row g-3">
                                             <div class="col-6">
                                                 <a href="https://www.youtube.com/watch?v=ag0qTaAKqT8" class="glightbox tyn-video" data-gallery="media-video">
-                                                    <img src="images/gallery/video/hr-1.jpg" class="tyn-image" alt="">
+                                                    <img src="{{asset('frontasset/images/gallery/video/hr-1.jpg')}}" class="tyn-image" alt="">
                                                     <div class="tyn-video-icon">
                                                         <!-- play-fill -->
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
@@ -969,7 +969,7 @@
                                             </div>
                                             <div class="col-6">
                                                 <a href="https://www.youtube.com/watch?v=ag0qTaAKqT8" class="glightbox tyn-video" data-gallery="media-video">
-                                                    <img src="images/gallery/video/hr-2.jpg" class="tyn-image" alt="">
+                                                    <img src="{{asset('frontasset/images/gallery/video/hr-2.jpg')}}" class="tyn-image" alt="">
                                                     <div class="tyn-video-icon">
                                                         <!-- play-fill -->
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
@@ -980,7 +980,7 @@
                                             </div>
                                             <div class="col-6">
                                                 <a href="https://www.youtube.com/watch?v=ag0qTaAKqT8" class="glightbox tyn-video" data-gallery="media-video">
-                                                    <img src="images/gallery/video/hr-3.jpg" class="tyn-image" alt="">
+                                                    <img src="{{ asset('frontasset/images/gallery/video/hr-3.jpg')}}" class="tyn-image" alt="">
                                                     <div class="tyn-video-icon">
                                                         <!-- play-fill -->
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
@@ -991,7 +991,7 @@
                                             </div>
                                             <div class="col-6">
                                                 <a href="https://www.youtube.com/watch?v=ag0qTaAKqT8" class="glightbox tyn-video" data-gallery="media-video">
-                                                    <img src="images/gallery/video/hr-4.jpg" class="tyn-image" alt="">
+                                                    <img src="{{ asset('frontasset/images/gallery/video/hr-4.jpg')}}" class="tyn-image" alt="">
                                                     <div class="tyn-video-icon">
                                                         <!-- play-fill -->
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
@@ -1002,7 +1002,7 @@
                                             </div>
                                             <div class="col-6">
                                                 <a href="https://www.youtube.com/watch?v=ag0qTaAKqT8" class="glightbox tyn-video" data-gallery="media-video">
-                                                    <img src="images/gallery/video/vr-5.jpg" class="tyn-image" alt="">
+                                                    <img src="{{ asset('frontasset/images/gallery/video/vr-5.jpg')}}" class="tyn-image" alt="">
                                                     <div class="tyn-video-icon">
                                                         <!-- play-fill -->
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
@@ -1013,7 +1013,7 @@
                                             </div>
                                             <div class="col-6">
                                                 <a href="https://www.youtube.com/watch?v=ag0qTaAKqT8" class="glightbox tyn-video" data-gallery="media-video">
-                                                    <img src="images/gallery/video/hr-6.jpg" class="tyn-image" alt="">
+                                                    <img src="{{asset('frontasset/images/gallery/video/hr-6.jpg')}}" class="tyn-image" alt="">
                                                     <div class="tyn-video-icon">
                                                         <!-- play-fill -->
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
@@ -1114,7 +1114,7 @@
                                                 <a href="#" class="tyn-links">
                                                     <div class="tyn-media-group">
                                                         <div class="tyn-media tyn-size-xl">
-                                                            <img src="images/gallery/chat/thumb-7.jpg" alt="">
+                                                            <img src="{{ asset('frontasset/images/gallery/chat/thumb-7.jpg')}}" alt="">
                                                         </div>
                                                         <div class="tyn-media-col">
                                                             <h6 class="name">Digital Marketing Guide</h6>
@@ -1127,7 +1127,7 @@
                                                 <a href="#" class="tyn-links">
                                                     <div class="tyn-media-group">
                                                         <div class="tyn-media tyn-size-xl">
-                                                            <img src="images/gallery/chat/thumb-8.jpg" alt="">
+                                                            <img src="{{asset('frontasset/images/gallery/chat/thumb-8.jpg')}}" alt="">
                                                         </div>
                                                         <div class="tyn-media-col">
                                                             <h6 class="name">Atomic power plant engine</h6>
@@ -1178,32 +1178,32 @@
                                                 <div class="row g-3">
                                                     <div class="col-4">
                                                         <button class="tyn-thumb">
-                                                            <img src="images/gallery/chat/thumb-1.jpg" class="tyn-image" alt="">
+                                                            <img src="{{ asset('frontasset/images/gallery/chat/thumb-1.jpg')}}" class="tyn-image" alt="">
                                                         </button>
                                                     </div>
                                                     <div class="col-4">
                                                         <button class="tyn-thumb">
-                                                            <img src="images/gallery/chat/thumb-2.jpg" class="tyn-image" alt="">
+                                                            <img src="{{asset ('frontasset/images/gallery/chat/thumb-2.jpg')}}" class="tyn-image" alt="">
                                                         </button>
                                                     </div>
                                                     <div class="col-4">
                                                         <button class="tyn-thumb">
-                                                            <img src="images/gallery/chat/thumb-3.jpg" class="tyn-image" alt="">
+                                                            <img src="{{asset ('frontasset/images/gallery/chat/thumb-3.jpg')}}" class="tyn-image" alt="">
                                                         </button>
                                                     </div>
                                                     <div class="col-4">
                                                         <button class="tyn-thumb">
-                                                            <img src="images/gallery/chat/thumb-4.jpg" class="tyn-image" alt="">
+                                                            <img src="{{asset ('frontasset/images/gallery/chat/thumb-4.jpg')}}" class="tyn-image" alt="">
                                                         </button>
                                                     </div>
                                                     <div class="col-4">
                                                         <button class="tyn-thumb">
-                                                            <img src="images/gallery/chat/thumb-5.jpg" class="tyn-image" alt="">
+                                                            <img src="{{ asset('frontasset/images/gallery/chat/thumb-5.jpg')}}" class="tyn-image" alt="">
                                                         </button>
                                                     </div>
                                                     <div class="col-4">
                                                         <button class="tyn-thumb">
-                                                            <img src="images/gallery/chat/thumb-6.jpg" class="tyn-image" alt="">
+                                                            <img src="{{ asset('frontassetimages/gallery/chat/thumb-6.jpg')}}" class="tyn-image" alt="">
                                                         </button>
                                                     </div>
                                                 </div>
@@ -1214,7 +1214,7 @@
                                                     <li>
                                                         <div class="tyn-media-group">
                                                             <div class="tyn-media tyn-size-lg">
-                                                                <img src="images/avatar/1.jpg" alt="">
+                                                                <img src="{{asset('frontasset/images/avatar/1.jpg')}}" alt="">
                                                             </div>
                                                             <div class="tyn-media-col">
                                                                 <div class="tyn-media-row">
@@ -1242,7 +1242,7 @@
                                                     <li>
                                                         <div class="tyn-media-group">
                                                             <div class="tyn-media tyn-size-lg">
-                                                                <img src="images/avatar/3.jpg" alt="">
+                                                                <img src="{{asset ('frontasset/images/avatar/3.jpg')}}" alt="">
                                                             </div>
                                                             <div class="tyn-media-col">
                                                                 <div class="tyn-media-row">
