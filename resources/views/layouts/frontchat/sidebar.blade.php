@@ -78,7 +78,7 @@
                             </li><!-- li -->
                         </ul><!-- .link-group -->
                     </div><!-- .tyn-aside-head-tools -->
-                </div>.tyn-aside-head
+                </div>
                 <div class="tyn-aside-body" data-simplebar>
                     <div class="tyn-aside-search">
                         <div class="form-group tyn-pill">
