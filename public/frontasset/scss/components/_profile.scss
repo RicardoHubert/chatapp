@@ -1,56 +1,56 @@
-.#{$app-prefix}profile{
+.#{$app-prefix}profile {
     --info-padding: 1.75rem;
     --details-padding: 1.875rem;
     --head-bg: var(--#{$prefix}white);
     --details-bg: var(--#{$prefix}white);
-    [data-bs-theme="dark"] &{
+    [data-bs-theme="dark"] & {
         --head-bg: var(--#{$prefix}gray-800);
         --details-bg: var(--#{$prefix}gray-800);
     }
-    &-head{
+    &-head {
         background: var(--head-bg);
         border-radius: 1rem;
     }
-    &-cover{
+    &-cover {
         border-radius: 1rem 1rem 0 0;
-        &-image{
+        &-image {
             height: 290px;
             width: 100%;
             border-radius: inherit;
             object-fit: cover;
         }
     }
-    &-info{
+    &-info {
         padding: var(--info-padding);
     }
-    &-avatar{
-        margin-top: calc( var(--info-padding) * -2);
+    &-avatar {
+        margin-top: calc(var(--info-padding) * -2);
     }
-    &-nav{
+    &-nav {
         display: flex;
-        padding-top: 1rem;
+        padding-top: 3rem;
     }
-    &-details{
+    &-details {
         background-color: var(--details-bg);
         padding: var(--details-padding);
         border-radius: 0 0 1rem 1rem;
     }
 }
 
-@include media-breakpoint-up(md){
-    .#{$app-prefix}profile{
-        &-cover{
-            &-image{
+@include media-breakpoint-up(md) {
+    .#{$app-prefix}profile {
+        &-cover {
+            &-image {
                 height: 390px;
             }
         }
     }
 }
 
-@include media-breakpoint-up(lg){
-    .#{$app-prefix}profile{
-        &-cover{
-            &-image{
+@include media-breakpoint-up(lg) {
+    .#{$app-prefix}profile {
+        &-cover {
+            &-image {
                 height: 490px;
             }
         }

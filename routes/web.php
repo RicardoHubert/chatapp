@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\DashboardController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,8 +18,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/dashboard', function () {
-    return view('index');
-})->middleware(['auth'])->name('dashboard');
+
+Route::middleware(['auth'])->group(function(){
+    Route::get('/dashboard', [DashboardController::class, 'index']);
+    Route::get('profile', [DashboardController::class, 'profile'])->name('profile');
+    Route::post('profile_validation', [DashboardController::class, 'profile_validation'])->name('dash.profile_validation');
+});
+
 
 require __DIR__.'/auth.php';

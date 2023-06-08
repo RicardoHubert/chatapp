@@ -207,104 +207,8 @@
                             </ul>
                         </div><!-- .dropdown-head -->
                         <div class="dropdown-gap">
-                            <ul class="tyn-media-list gap gap-3">
-                                <li>
-                                    <div class="tyn-media-group">
-                                        <div class="tyn-media tyn-circle">
-                                            <img src="{{ asset('/frontasset/images/avatar/1.jpg') }}" alt="">
-                                        </div>
-                                        <div class="tyn-media-col">
-                                            <div class="tyn-media-row">
-                                                <span class="message"><strong>Phillip Burke</strong> Sent message</span>
-                                            </div>
-                                            <div class="tyn-media-row">
-                                                <span class="meta">10 Hours ago</span>
-                                            </div>
-                                        </div>
-                                    </div><!-- .tyn-media-group -->
-                                </li><!-- li -->
-                                <li>
-                                    <div class="tyn-media-group align-items-start">
-                                        <div class="tyn-media tyn-circle">
-                                            <img src="{{ asset('/frontasset/images/avatar/2.jpg') }}" alt="">
-                                        </div>
-                                        <div class="tyn-media-col">
-                                            <div class="tyn-media-row">
-                                                <span class="message">Missed call from <strong>Romy Schulte</strong></span>
-                                            </div>
-                                            <div class="tyn-media-row has-dot-sap">
-                                                <span class="meta">2 days ago</span>
-                                            </div>
-                                            <div class="tyn-media-row">
-                                                <ul class="tyn-btn-inline gap gap-2 pt-1">
-                                                    <li>
-                                                        <button class="btn btn-md btn-light">
-                                                            <!-- telephone -->
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
-                                                                <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
-                                                            </svg>
-                                                            <span>Call Back</span>
-                                                        </button>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div><!-- .tyn-media-group -->
-                                </li><!-- li -->
-                                <li>
-                                    <div class="tyn-media-group align-items-start">
-                                        <div class="tyn-media tyn-circle">
-                                            <img src="{{ asset('/frontasset/images/avatar/3.jpg') }}" alt="">
-                                        </div>
-                                        <div class="tyn-media-col">
-                                            <div class="tyn-media-row">
-                                                <span class="message"><strong>Thomas Poulain</strong> Added You</span>
-                                            </div>
-                                            <div class="tyn-media-row has-dot-sap">
-                                                <span class="meta">1 weeks ago</span>
-                                            </div>
-                                            <div class="tyn-media-row">
-                                                <ul class="tyn-btn-inline gap gap-3 pt-1">
-                                                    <li>
-                                                        <button class="btn btn-md btn-primary">
-                                                            <!-- check2-circle -->
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
-                                                                <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
-                                                                <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
-                                                            </svg>
-                                                            <span>Accept</span>
-                                                        </button>
-                                                    </li>
-                                                    <li>
-                                                        <button class="btn btn-md btn-light">
-                                                            <!-- x-circle -->
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
-                                                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-                                                                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
-                                                            </svg>
-                                                            <span>Reject</span>
-                                                        </button>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div><!-- .tyn-media-group -->
-                                </li><!-- li -->
-                                <li>
-                                    <div class="tyn-media-group">
-                                        <div class="tyn-media tyn-circle">
-                                            <img src="{{ asset('/frontasset/images/avatar/4.jpg') }}" alt="">
-                                        </div>
-                                        <div class="tyn-media-col">
-                                            <div class="tyn-media-row">
-                                                <span class="message"><strong>Gabriel Schmitz</strong> Sent message</span>
-                                            </div>
-                                            <div class="tyn-media-row has-dot-sap">
-                                                <span class="meta">1 Months ago</span>
-                                            </div>
-                                        </div>
-                                    </div><!-- .tyn-media-group -->
-                                </li><!-- li -->
+                            <ul class="tyn-media-list gap gap-3" id="notification_area">
+
                             </ul><!-- .tyn-media-list -->
                         </div><!-- .dropdown-gap -->
                     </div><!-- .dropdown-menu -->
@@ -312,18 +216,26 @@
                 <li class="tyn-appbar-item">
                     <a class="d-inline-flex dropdown-toggle" data-bs-auto-close="outside" data-bs-toggle="dropdown" href="#" data-bs-offset="0,10">
                         <div class="tyn-media tyn-size-lg tyn-circle">
-                            <img src="{{ asset('/frontasset/images/avatar/3.jpg') }}" alt="">
+                            @if (Auth::user()->user_image != '')
+                                <img src="{{ asset('/frontasset/images/avatar/'.Auth::user()->user_image) }}" alt="">
+                            @else
+                                <img src="{{ asset('frontasset/images/avatar/no-image.png') }}" alt="">
+                            @endif
                         </div>
                     </a>
                     <div class="dropdown-menu dropdown-menu-end">
                         <div class="dropdown-gap">
                             <div class="tyn-media-group">
                                 <div class="tyn-media tyn-size-lg">
-                                    <img src="{{ asset('/frontasset/images/avatar/3.jpg') }}" alt="">
+                                    @if (Auth::user()->user_image != '')
+                                        <img src="{{ asset('/frontasset/images/avatar/'.Auth::user()->user_image) }}" alt="">
+                                    @else
+                                        <img src="{{ asset('frontasset/images/avatar/no-image.png') }}" alt="">
+                                    @endif
                                 </div>
                                 <div class="tyn-media-col">
                                     <div class="tyn-media-row">
-                                        <h6 class="name">Marie George</h6>
+                                        <h6 class="name">{{ Auth::user()->name }}</h6>
                                         <div class="indicator varified">
                                             <!-- check-circle-fill -->
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
@@ -332,7 +244,7 @@
                                         </div>
                                     </div>
                                     <div class="tyn-media-row has-dot-sap">
-                                        <p class="content">Liked that disco music</p>
+                                        <p class="content">Welcome to chatapp</p>
                                     </div>
                                 </div>
                             </div>
@@ -364,7 +276,7 @@
                         </div>
                         <ul class="tyn-list-links">
                             <li>
-                                <a href="profile.html#profile-index">
+                                <a href="{{ route('profile') }}">
                                     <!-- person -->
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
                                         <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z" />
@@ -372,35 +284,22 @@
                                     <span>Profile</span>
                                 </a>
                             </li>
-                            <li>
-                                <a href="profile.html#profile-settings">
-                                    <!-- gear -->
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
-                                        <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z" />
-                                        <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z" />
-                                    </svg>
-                                    <span>Settings</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="profile.html#profile-change-password">
-                                    <!-- unlock -->
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-unlock" viewBox="0 0 16 16">
-                                        <path d="M11 1a2 2 0 0 0-2 2v4a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h5V3a3 3 0 0 1 6 0v4a.5.5 0 0 1-1 0V3a2 2 0 0 0-2-2zM3 8a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1H3z" />
-                                    </svg>
-                                    <span>Change Password</span>
-                                </a>
-                            </li>
                             <li class="dropdown-divider"></li>
                             <li>
-                                <a href="login.html">
-                                    <!-- power -->
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-power" viewBox="0 0 16 16">
-                                        <path d="M7.5 1v7h1V1h-1z" />
-                                        <path d="M3 8.812a4.999 4.999 0 0 1 2.578-4.375l-.485-.874A6 6 0 1 0 11 3.616l-.501.865A5 5 0 1 1 3 8.812z" />
-                                    </svg>
-                                    <span>Log Out</span>
-                                </a>
+                                <form method="POST" action="{{ route('logout') }}">
+                                    @csrf
+
+                                    <a href="{{ route('logout') }}"
+                                        onclick="event.preventDefault();
+                                                this.closest('form').submit();">
+                                        <!-- power -->
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-power" viewBox="0 0 16 16">
+                                            <path d="M7.5 1v7h1V1h-1z" />
+                                            <path d="M3 8.812a4.999 4.999 0 0 1 2.578-4.375l-.485-.874A6 6 0 1 0 11 3.616l-.501.865A5 5 0 1 1 3 8.812z" />
+                                        </svg>
+                                        <span>Log Out</span>
+                                    </a>
+                                </form>
                             </li>
                         </ul><!-- .tyn-list-links -->
                     </div><!-- .dropdown-menu -->

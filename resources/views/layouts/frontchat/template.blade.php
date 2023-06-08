@@ -9,4 +9,5 @@
     <title>Messages | ConnectMe | Chat Application HTML Template</title>
     <link rel="stylesheet" href="{{ asset('/frontasset/assets/css/bundle.css?v100') }}">
     <link rel="stylesheet" href="{{ asset('/frontasset/assets/css/app.css?v100') }}">
+    <link rel="stylesheet" href="{{ asset('/frontasset/assets/css/sweetalert2.min.css') }}">
 </head>

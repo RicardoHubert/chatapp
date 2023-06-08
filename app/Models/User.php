@@ -21,6 +21,10 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'token',
+        'connection_id',
+        'user_status',
+        'user_image'
     ];
 
     /**
@@ -42,33 +46,4 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-    // Relasi One-to-Many dengan Pesan yang dikirim oleh pengguna
-    public function pesanDikirim()
-    {
-        return $this->hasMany(Message::class, 'pengirim_id');
-    }
-
-    // Relasi One-to-Many dengan Pesan yang diterima oleh pengguna
-    public function pesanDiterima()
-    {
-        return $this->hasMany(Message::class, 'penerima_id');
-    }
-
-    // Relasi Many-to-Many dengan Grup sebagai anggota grup
-    public function group()
-    {
-        return $this->belongsToMany(Group::class, 'group_members', 'pengguna_id', 'grup_id');
-    }
-
-    // Relasi Many-to-Many dengan dirinya sendiri sebagai teman
-    public function teman()
-    {
-        return $this->belongsToMany(User::class, 'friends', 'pengguna_id', 'teman_id');
-    }
-
-    // Relasi One-to-Many dengan Notifikasi yang diterima oleh pengguna
-    public function notifikasi()
-    {
-        return $this->hasMany(Notification::class, 'penerima_id');
-    }
 }

@@ -5,13 +5,15 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class GroupMember extends Model
+class Chat extends Model
 {
     use HasFactory;
 
-    protected $table = 'group_members';
+    protected $table = 'chats';
     protected $fillable = [
-        'group_id',
-        'user_id'
+        'from_user_id',
+        'to_user_id',
+        'chat_message',
+        'message_status'
     ];
 }
